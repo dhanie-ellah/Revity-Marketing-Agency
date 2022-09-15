@@ -14,7 +14,8 @@
      --black-2: #121212;
      --pink: #cc3366;
      --orange-1: #e7711b;
-     --orange-2: #ffa104;
+     --orange-2: #00c7d9;
+     /* --orange-2: #ffa104; */
      --red: #ff3520;
      --blue-1: #2c7cff;
      --green: #328a59;
@@ -395,23 +396,23 @@ hr{
      font-size: 25px;
 }
 
-.process div .text{
+.process .text{
      padding: 14px;
 }
 
-.process div .number{
+.process .number{
      font-weight: 700;
      font-size: 16px;
      color: var(--orange-2);
 }
 
-.process div .text p:nth-child(1){
+.process .text p:nth-child(1){
      font-weight: 700;
      font-size: 15px;
      color: var(--orange-2);
 }
 
-.process div .text p:nth-child(2){
+.process .text p:nth-child(2){
      font-size: 14px;
      color: var(--grey-2);
 }
@@ -438,11 +439,13 @@ hr{
 
 .process .middle .div{
      width: 75%;
+     margin: auto;
      height: 15px;
      background-color: var(--orange-2);
      position: absolute;
+     left: 0;
+     right: 0;
      top: 42%;
-     left: 12%;
      border-radius: 25px;
 }
 
@@ -482,9 +485,9 @@ hr{
 }
 
 /* BLOG */
-/* .blog{
+.blog{
      padding: 50px 75px;
-}
+} 
 
 .blog .heading{
      text-align: center;
@@ -536,7 +539,12 @@ hr{
      align-items: center;
      justify-content: space-between;
      gap: 20px;
-     overflow: hidden;
+     overflow: scroll;
+     scrollbar-width: none;
+}
+
+.blog .slider .slider-container::-webkit-scrollbar{
+     width: 0;
 }
 
 .blog .slider .slider-container .content{
@@ -834,8 +842,29 @@ footer .bottom{
 
      .process{
           padding: 25px;
-          /* width: max-content; */
-          width: 100vw;
+     }
+
+     .processes{
+          width: 100%;
+          overflow: scroll;
+     }
+
+     .processes::-webkit-scrollbar{
+          width: 0;
+     }
+
+     .process .top,
+     .process .middle,
+     .process .bottom{
+          width: 450%;
+     }
+
+     .process .middle .div{
+          width: 80%;
+     }
+
+     .process .middle .icons{
+          justify-content: space-around;
      }
 
      footer .top{
