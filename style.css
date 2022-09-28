@@ -102,7 +102,7 @@ nav .links .dropdown > a{
      text-transform: uppercase;
      border-bottom: 2px solid transparent;
      transition: 1s;
-     padding: 0px 15px;
+     padding: 0px 20px;
 }
 
 nav .links > a:nth-child(1){
@@ -485,11 +485,11 @@ hr{
 }
 
 /* BLOG */
-.blog{
+/* .blog{
      padding: 50px 75px;
-} 
+}  */
 
-.blog .heading{
+/* .blog .heading{
      text-align: center;
      margin-bottom: 45px;
 }
@@ -506,34 +506,34 @@ hr{
      display: flex;
      justify-content: center;
      align-items: center;
-}
+} */
 
-.blog .heading .underline .line{
+/* .blog .heading .underline .line{
      width: 50px;
      height: 2.5px;
      background-color: var(--orange-2);
-}
+} */
 
-.blog .heading .underline .circle{
+/* .blog .heading .underline .circle{
      height: 25px;
      width: 25px;
      border-radius: 50%;
      border: 3px solid var(--orange-2);
-}
+} */
 
-.blog .slider{
+/* .blog .slider{
      display: flex;
      align-items: center;
      justify-content: space-between;
-}
+} */
 
-.blog .slider i{
+/* .blog .slider i{
      font-size: 25px;
      color: var(--orange-2);
      font-weight: 700;
-}
+} */
 
-.blog .slider .slider-container{
+/* .blog .slider .slider-container{
      width: 95%;
      display: flex;
      align-items: center;
@@ -541,75 +541,171 @@ hr{
      gap: 20px;
      overflow: scroll;
      scrollbar-width: none;
-}
+} */
 
-.blog .slider .slider-container::-webkit-scrollbar{
+/* .blog .slider .slider-container::-webkit-scrollbar{
      width: 0;
-}
+} */
 
-.blog .slider .slider-container .content{
+/* .blog .slider .slider-container .content{
      min-width: 31.5%;
      background-image: linear-gradient(180deg, #FFA104 0%, #FFFFFF 100%);
      box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
      border: 1px solid rgba(0, 0, 0, .1);
      cursor: grab;
-}
+} */
 
-.blog .slider .slider-container .content > img{
+/* .blog .slider .slider-container .content > img{
      width: 100%;
-}
+} */
 
-.blog .slider .slider-container .content .text{
+/* .blog .slider .slider-container .content .text{
      margin: 20px;
      text-align: center;
      margin-bottom: 25px;
-}
+} */
 
-.blog .slider .slider-container .content .text h1{
+/* .blog .slider .slider-container .content .text h1{
      font-size: 18px;
      margin-bottom: 15px;
-}
+} */
 
-.blog .slider .slider-container .content .text p{
+/* .blog .slider .slider-container .content .text p{
      font-size: 12px;
-}
+} */
 
-.blog .slider .slider-container .content .text a{
+/* .blog .slider .slider-container .content .text a{
      text-decoration: none;
      color: var(--green);
      font-size: 12px;
-}
+} */
 
-.blog .slider .slider-container .content .footer{
+/* .blog .slider .slider-container .content .footer{
      display: flex;
      align-items: center;
      justify-content: center;
      gap: 10px;
      margin-bottom: 25px;
-}
+} */
 
-.blog .slider .slider-container .content .footer .img-wrapper{
+/* .blog .slider .slider-container .content .footer .img-wrapper{
      width: 50px;
      height: 50px;
      border-radius: 50%;
      overflow: hidden;
-}
-
-.blog .slider .slider-container .content .footer .img-wrapper img{
-     width: 100%;
 } */
+
+/* .blog .slider .slider-container .content .footer .img-wrapper img{
+     width: 100%;
+} */ */
 
 /* .blog .slider .slider-container .content .footer .text-wrapper */
 
-.blog .slider .slider-container .content .footer .text-wrapper p{
+/* .blog .slider .slider-container .content .footer .text-wrapper p{
      font-size: 12px;
-}
+} */
 
-.blog .slider .slider-container .content .footer .text-wrapper p:nth-child(1){
+/* .blog .slider .slider-container .content .footer .text-wrapper p:nth-child(1){
      color: var(--red);
-}
+} */
 
 /* .blog .slider .slider-container .content .footer .text-wrapper p:nth-child(2) */
+
+/* SERVICES */
+.social-media{
+     display: flex;
+     gap: 50px;
+     align-items: center;
+     padding: 25px 75px;
+     background-color: var(--white-2);
+}
+.social-media .left{
+     width: 60%;
+}
+.social-media .left h1{
+     font-family: 'orbitron';
+     font-size: 50px;
+     margin-bottom: 25px;
+}
+.social-media .left p{
+     font-family: 'poppins';
+     color: var(--grey-5);
+     margin-bottom: 25px;
+     line-height: 22px;
+}
+.social-media .left button{
+     font-family: 'poppins';
+     background-color: var(--orange-2);
+     color: white;
+     border: none;
+     outline: none;
+     border-radius: 5px;
+     padding: 15px 20px;
+}
+.social-media .right{
+     width: 40%;
+}
+.social-media .right img{
+     width: 100%;
+}
+.heading {
+     text-align: center;
+     font-family: 'roboto';
+     margin-bottom: 25px;
+}
+.heading h1 {
+     font-weight: 400;
+}
+.heading h1 span {
+     font-weight: 600;
+}
+.heading .underline {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+}
+.heading .underline div {
+     height: 3px;
+     width: 75px;
+     background-color: var(--orange-2);
+     border-radius: 5px;
+}
+.heading .underline i {
+     font-size: 25px;
+}
+.services-page-content{
+     padding: 25px 75px;
+}
+.services-page-content .service-content{
+     display: flex;
+     gap: 50px;
+     align-items: center;
+     margin-bottom: 45px;
+     font-family: 'poppins';
+}
+.service-content .text{
+     width: 50%;
+}
+.service-content .text h1{
+     margin-bottom: 25px;
+}
+.service-content .text p{
+     margin-bottom: 10px;
+     font-weight: 400;
+     line-height: 22px;
+     color: var(--grey-2);
+     font-size: 15px;
+}
+.service-content .image{
+     width: 50%;
+}
+.service-content .image img{
+     width: 100%;
+}
+/* PRICING */
+/* ABOUT */
+/* CONTACT */
 
 /* FOOTER */
 footer{
@@ -866,6 +962,41 @@ footer .bottom{
      .process .middle .icons{
           justify-content: space-around;
      }
+
+     /* SERVICES */
+     .social-media{
+          flex-direction: column-reverse;
+          padding: 25px;
+     }
+     .social-media .left {
+          width: 100%;
+     }     
+     .social-media .right {
+          width: 100%;
+     }
+     .services-page-content {
+          padding: 25px;
+     }
+     .services-page-content .service-content:nth-child(odd){
+          gap: 25px;
+          flex-direction: column-reverse;
+          margin-bottom: 25px;
+     }
+     .services-page-content .service-content:nth-child(even){
+          gap: 25px;
+          flex-direction: column;
+          margin-bottom: 25px;
+     }
+     .service-content .text {
+          width: 100%;
+     }
+     .service-content .image {
+          width: 100%;
+     }
+
+     /* PRICING */
+     /* ABOUT */
+     /* CONTACT */
 
      footer .top{
           display: flex;
