@@ -737,6 +737,29 @@ table, tr, td, th {
      text-align: left;
 }
 /* ABOUT */
+.about-section{
+     padding: 25px 175px;
+     text-align: center;
+     padding-bottom: 50px;
+     background-color: var(--white-2);
+}
+.about-section h1{
+     font-family: 'orbitron';
+     font-size: 45px;
+}
+.about-section p{
+     padding: 25px 145px;
+     line-height: 22px;
+}
+.about-section button{
+     background-color: var(--orange-2);
+     border-radius: 5px;
+     color: var(--white-1);
+     padding: 12px 20px;
+     border: none;
+     outline: none;
+     font-size: 16px;
+}
 /* CONTACT */
 
 /* FOOTER */
