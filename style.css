@@ -900,6 +900,7 @@ footer .bottom{
      nav{
           padding: 0 50px;
           position: relative;
+          z-index: 500;
      }
 
      nav .logo{
@@ -1049,8 +1050,17 @@ footer .bottom{
           width: 100%;
      }
 
-     /* PRICING */
      /* ABOUT */
+     .about-section {
+          padding: 25px;
+          text-align: left;
+     }
+     .about-section h1 {
+          font-size: 25px;
+     }
+     .about-section p {
+          padding: 25px 0;
+     }
      /* CONTACT */
 
      footer .top{
